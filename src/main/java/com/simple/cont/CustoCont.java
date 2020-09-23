@@ -36,7 +36,7 @@ public class CustoCont {
 	@GetMapping("/just")
 	public String find()
 	{
-		return "hi";
+		return "bye";
 	}
 	
 	@PostMapping("/add")
