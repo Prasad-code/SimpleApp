@@ -32,6 +32,13 @@ public class CustoCont {
 	@Autowired
 	private CustoSer ser;
 	
+	
+	@GetMapping("/just")
+	public String find()
+	{
+		return "hi";
+	}
+	
 	@PostMapping("/add")
 	public Customer create(@RequestBody CustomerDTO cust)
 	{
